@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF776FAF2C69787100F23F3C /* MicrowaveViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF776FAC2C69783600F23F3C /* MicrowaveViewScreen.swift */; };
+		AF776FB22C6978B000F23F3C /* CustomTimerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6D72C696B51009DB3D1 /* CustomTimerMock.swift */; };
+		AF776FB42C697C1D00F23F3C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF776FB32C697C1D00F23F3C /* test.swift */; };
+		AFDEC6A42C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6A32C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift */; };
+		AFDEC6A62C67E7CB009DB3D1 /* MicrowaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6A52C67E7CB009DB3D1 /* MicrowaveView.swift */; };
+		AFDEC6A82C67E7CC009DB3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDEC6A72C67E7CC009DB3D1 /* Assets.xcassets */; };
+		AFDEC6AB2C67E7CC009DB3D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDEC6AA2C67E7CC009DB3D1 /* Preview Assets.xcassets */; };
+		AFDEC6B52C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */; };
+		AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */; };
+		AFDEC6C12C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */; };
+		AFDEC6CE2C67F021009DB3D1 /* MicrowaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6CD2C67F021009DB3D1 /* MicrowaveViewModel.swift */; };
+		AFDEC6D02C6802EA009DB3D1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6CF2C6802EA009DB3D1 /* CustomButton.swift */; };
+		AFDEC6D22C681A1C009DB3D1 /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6D12C681A1C009DB3D1 /* CustomTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDEC6B12C67E7CD009DB3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDEC6982C67E7CB009DB3D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDEC69F2C67E7CB009DB3D1;
+			remoteInfo = MicrowaveAppleAssessment;
+		};
+		AFDEC6BB2C67E7CD009DB3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDEC6982C67E7CB009DB3D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDEC69F2C67E7CB009DB3D1;
+			remoteInfo = MicrowaveAppleAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF776FAC2C69783600F23F3C /* MicrowaveViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewScreen.swift; sourceTree = "<group>"; };
+		AF776FB32C697C1D00F23F3C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		AFDEC6A02C67E7CB009DB3D1 /* MicrowaveAppleAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrowaveAppleAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDEC6A32C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentApp.swift; sourceTree = "<group>"; };
+		AFDEC6A52C67E7CB009DB3D1 /* MicrowaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveView.swift; sourceTree = "<group>"; };
+		AFDEC6A72C67E7CC009DB3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDEC6AA2C67E7CC009DB3D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFDEC6B02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrowaveAppleAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentTests.swift; sourceTree = "<group>"; };
+		AFDEC6BA2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrowaveAppleAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentUITests.swift; sourceTree = "<group>"; };
+		AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFDEC6CD2C67F021009DB3D1 /* MicrowaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewModel.swift; sourceTree = "<group>"; };
+		AFDEC6CF2C6802EA009DB3D1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AFDEC6D12C681A1C009DB3D1 /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
+		AFDEC6D72C696B51009DB3D1 /* CustomTimerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDEC69D2C67E7CB009DB3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6AD2C67E7CD009DB3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6B72C67E7CD009DB3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF776FAB2C69780B00F23F3C /* UITestScreens */ = {
+			isa = PBXGroup;
+			children = (
+				AF776FAC2C69783600F23F3C /* MicrowaveViewScreen.swift */,
+			);
+			path = UITestScreens;
+			sourceTree = "<group>";
+		};
+		AFDEC6972C67E7CB009DB3D1 = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6A22C67E7CB009DB3D1 /* MicrowaveAppleAssessment */,
+				AFDEC6B32C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests */,
+				AFDEC6BD2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests */,
+				AFDEC6A12C67E7CB009DB3D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDEC6A12C67E7CB009DB3D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6A02C67E7CB009DB3D1 /* MicrowaveAppleAssessment.app */,
+				AFDEC6B02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.xctest */,
+				AFDEC6BA2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDEC6A22C67E7CB009DB3D1 /* MicrowaveAppleAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6A32C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift */,
+				AFDEC6A52C67E7CB009DB3D1 /* MicrowaveView.swift */,
+				AFDEC6CD2C67F021009DB3D1 /* MicrowaveViewModel.swift */,
+				AFDEC6CF2C6802EA009DB3D1 /* CustomButton.swift */,
+				AFDEC6D12C681A1C009DB3D1 /* CustomTimer.swift */,
+				AFDEC6A72C67E7CC009DB3D1 /* Assets.xcassets */,
+				AFDEC6D42C696A4F009DB3D1 /* Mocks */,
+				AF776FAB2C69780B00F23F3C /* UITestScreens */,
+				AFDEC6A92C67E7CC009DB3D1 /* Preview Content */,
+			);
+			path = MicrowaveAppleAssessment;
+			sourceTree = "<group>";
+		};
+		AFDEC6A92C67E7CC009DB3D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6AA2C67E7CC009DB3D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFDEC6B32C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */,
+			);
+			path = MicrowaveAppleAssessmentTests;
+			sourceTree = "<group>";
+		};
+		AFDEC6BD2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */,
+				AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */,
+				AF776FB32C697C1D00F23F3C /* test.swift */,
+			);
+			path = MicrowaveAppleAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		AFDEC6D42C696A4F009DB3D1 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEC6D72C696B51009DB3D1 /* CustomTimerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDEC69F2C67E7CB009DB3D1 /* MicrowaveAppleAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDEC6C42C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessment" */;
+			buildPhases = (
+				AFDEC69C2C67E7CB009DB3D1 /* Sources */,
+				AFDEC69D2C67E7CB009DB3D1 /* Frameworks */,
+				AFDEC69E2C67E7CB009DB3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrowaveAppleAssessment;
+			productName = MicrowaveAppleAssessment;
+			productReference = AFDEC6A02C67E7CB009DB3D1 /* MicrowaveAppleAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDEC6AF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDEC6C72C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessmentTests" */;
+			buildPhases = (
+				AFDEC6AC2C67E7CD009DB3D1 /* Sources */,
+				AFDEC6AD2C67E7CD009DB3D1 /* Frameworks */,
+				AFDEC6AE2C67E7CD009DB3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDEC6B22C67E7CD009DB3D1 /* PBXTargetDependency */,
+			);
+			name = MicrowaveAppleAssessmentTests;
+			productName = MicrowaveAppleAssessmentTests;
+			productReference = AFDEC6B02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFDEC6B92C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDEC6CA2C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessmentUITests" */;
+			buildPhases = (
+				AFDEC6B62C67E7CD009DB3D1 /* Sources */,
+				AFDEC6B72C67E7CD009DB3D1 /* Frameworks */,
+				AFDEC6B82C67E7CD009DB3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDEC6BC2C67E7CD009DB3D1 /* PBXTargetDependency */,
+			);
+			name = MicrowaveAppleAssessmentUITests;
+			productName = MicrowaveAppleAssessmentUITests;
+			productReference = AFDEC6BA2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDEC6982C67E7CB009DB3D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AFDEC69F2C67E7CB009DB3D1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AFDEC6AF2C67E7CD009DB3D1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFDEC69F2C67E7CB009DB3D1;
+					};
+					AFDEC6B92C67E7CD009DB3D1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFDEC69F2C67E7CB009DB3D1;
+					};
+				};
+			};
+			buildConfigurationList = AFDEC69B2C67E7CB009DB3D1 /* Build configuration list for PBXProject "MicrowaveAppleAssessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDEC6972C67E7CB009DB3D1;
+			productRefGroup = AFDEC6A12C67E7CB009DB3D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDEC69F2C67E7CB009DB3D1 /* MicrowaveAppleAssessment */,
+				AFDEC6AF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests */,
+				AFDEC6B92C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDEC69E2C67E7CB009DB3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDEC6AB2C67E7CC009DB3D1 /* Preview Assets.xcassets in Resources */,
+				AFDEC6A82C67E7CC009DB3D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6AE2C67E7CD009DB3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6B82C67E7CD009DB3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDEC69C2C67E7CB009DB3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDEC6D02C6802EA009DB3D1 /* CustomButton.swift in Sources */,
+				AFDEC6CE2C67F021009DB3D1 /* MicrowaveViewModel.swift in Sources */,
+				AFDEC6A62C67E7CB009DB3D1 /* MicrowaveView.swift in Sources */,
+				AFDEC6A42C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift in Sources */,
+				AFDEC6D22C681A1C009DB3D1 /* CustomTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6AC2C67E7CD009DB3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF776FB22C6978B000F23F3C /* CustomTimerMock.swift in Sources */,
+				AFDEC6B52C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDEC6B62C67E7CD009DB3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift in Sources */,
+				AF776FB42C697C1D00F23F3C /* test.swift in Sources */,
+				AFDEC6C12C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift in Sources */,
+				AF776FAF2C69787100F23F3C /* MicrowaveViewScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDEC6B22C67E7CD009DB3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDEC69F2C67E7CB009DB3D1 /* MicrowaveAppleAssessment */;
+			targetProxy = AFDEC6B12C67E7CD009DB3D1 /* PBXContainerItemProxy */;
+		};
+		AFDEC6BC2C67E7CD009DB3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDEC69F2C67E7CB009DB3D1 /* MicrowaveAppleAssessment */;
+			targetProxy = AFDEC6BB2C67E7CD009DB3D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFDEC6C22C67E7CD009DB3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDEC6C32C67E7CD009DB3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDEC6C52C67E7CD009DB3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrowaveAppleAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDEC6C62C67E7CD009DB3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrowaveAppleAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFDEC6C82C67E7CD009DB3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrowaveAppleAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicrowaveAppleAssessment";
+			};
+			name = Debug;
+		};
+		AFDEC6C92C67E7CD009DB3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrowaveAppleAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicrowaveAppleAssessment";
+			};
+			name = Release;
+		};
+		AFDEC6CB2C67E7CD009DB3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrowaveAppleAssessment;
+			};
+			name = Debug;
+		};
+		AFDEC6CC2C67E7CD009DB3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.MicrowaveAppleAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrowaveAppleAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDEC69B2C67E7CB009DB3D1 /* Build configuration list for PBXProject "MicrowaveAppleAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDEC6C22C67E7CD009DB3D1 /* Debug */,
+				AFDEC6C32C67E7CD009DB3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDEC6C42C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDEC6C52C67E7CD009DB3D1 /* Debug */,
+				AFDEC6C62C67E7CD009DB3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDEC6C72C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDEC6C82C67E7CD009DB3D1 /* Debug */,
+				AFDEC6C92C67E7CD009DB3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDEC6CA2C67E7CD009DB3D1 /* Build configuration list for PBXNativeTarget "MicrowaveAppleAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDEC6CB2C67E7CD009DB3D1 /* Debug */,
+				AFDEC6CC2C67E7CD009DB3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDEC6982C67E7CB009DB3D1 /* Project object */;
+}
