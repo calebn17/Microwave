@@ -7,7 +7,8 @@
 
 import XCTest
 
-final class MicrowaveAppleAssessmentUITests: XCTestCase {
+/// UI Tests
+final class MicrowaveViewUITests: XCTestCase {
 
     let app = XCUIApplication()
     

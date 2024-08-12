@@ -17,6 +17,7 @@ protocol CustomTimerProtocol {
     func formatTime(interval: TimeInterval) -> String
 }
 
+/// A custom timer that calculates and sends updates on the remaining time
 final class CustomTimer: CustomTimerProtocol {
     
     /// Time that is left

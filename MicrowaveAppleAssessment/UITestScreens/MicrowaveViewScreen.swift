@@ -8,6 +8,8 @@
 import Foundation
 import XCTest
 
+/// File that contains the UI elements and methods for UI tests
+/// Using POM pattern
 final class MicrowaveViewScreen: XCTest {
     
     let app: XCUIApplication

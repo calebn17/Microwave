@@ -8,7 +8,8 @@
 import XCTest
 @testable import MicrowaveAppleAssessment
 
-final class MicrowaveAppleAssessmentTests: XCTestCase {
+/// Unit tests
+final class MicrowaveViewModelTests: XCTestCase {
     
     private var mockTimer: CustomTimerMock!
     private var sut: MicrowaveViewModel!

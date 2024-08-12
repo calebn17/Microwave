@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		AF776FAF2C69787100F23F3C /* MicrowaveViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF776FAC2C69783600F23F3C /* MicrowaveViewScreen.swift */; };
 		AF776FB22C6978B000F23F3C /* CustomTimerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6D72C696B51009DB3D1 /* CustomTimerMock.swift */; };
-		AF776FB42C697C1D00F23F3C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF776FB32C697C1D00F23F3C /* test.swift */; };
 		AFDEC6A42C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6A32C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift */; };
 		AFDEC6A62C67E7CB009DB3D1 /* MicrowaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6A52C67E7CB009DB3D1 /* MicrowaveView.swift */; };
 		AFDEC6A82C67E7CC009DB3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDEC6A72C67E7CC009DB3D1 /* Assets.xcassets */; };
 		AFDEC6AB2C67E7CC009DB3D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDEC6AA2C67E7CC009DB3D1 /* Preview Assets.xcassets */; };
-		AFDEC6B52C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */; };
-		AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */; };
-		AFDEC6C12C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */; };
+		AFDEC6B52C67E7CD009DB3D1 /* MicrowaveViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6B42C67E7CD009DB3D1 /* MicrowaveViewModelTests.swift */; };
+		AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveViewUITests.swift */; };
 		AFDEC6CE2C67F021009DB3D1 /* MicrowaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6CD2C67F021009DB3D1 /* MicrowaveViewModel.swift */; };
 		AFDEC6D02C6802EA009DB3D1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6CF2C6802EA009DB3D1 /* CustomButton.swift */; };
 		AFDEC6D22C681A1C009DB3D1 /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEC6D12C681A1C009DB3D1 /* CustomTimer.swift */; };
@@ -41,17 +39,15 @@
 
 /* Begin PBXFileReference section */
 		AF776FAC2C69783600F23F3C /* MicrowaveViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewScreen.swift; sourceTree = "<group>"; };
-		AF776FB32C697C1D00F23F3C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		AFDEC6A02C67E7CB009DB3D1 /* MicrowaveAppleAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrowaveAppleAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDEC6A32C67E7CB009DB3D1 /* MicrowaveAppleAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentApp.swift; sourceTree = "<group>"; };
 		AFDEC6A52C67E7CB009DB3D1 /* MicrowaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveView.swift; sourceTree = "<group>"; };
 		AFDEC6A72C67E7CC009DB3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFDEC6AA2C67E7CC009DB3D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFDEC6B02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrowaveAppleAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentTests.swift; sourceTree = "<group>"; };
+		AFDEC6B42C67E7CD009DB3D1 /* MicrowaveViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewModelTests.swift; sourceTree = "<group>"; };
 		AFDEC6BA2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrowaveAppleAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentUITests.swift; sourceTree = "<group>"; };
-		AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveAppleAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewUITests.swift; sourceTree = "<group>"; };
 		AFDEC6CD2C67F021009DB3D1 /* MicrowaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrowaveViewModel.swift; sourceTree = "<group>"; };
 		AFDEC6CF2C6802EA009DB3D1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AFDEC6D12C681A1C009DB3D1 /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
@@ -138,7 +134,7 @@
 		AFDEC6B32C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				AFDEC6B42C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift */,
+				AFDEC6B42C67E7CD009DB3D1 /* MicrowaveViewModelTests.swift */,
 			);
 			path = MicrowaveAppleAssessmentTests;
 			sourceTree = "<group>";
@@ -146,9 +142,7 @@
 		AFDEC6BD2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift */,
-				AFDEC6C02C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift */,
-				AF776FB32C697C1D00F23F3C /* test.swift */,
+				AFDEC6BE2C67E7CD009DB3D1 /* MicrowaveViewUITests.swift */,
 			);
 			path = MicrowaveAppleAssessmentUITests;
 			sourceTree = "<group>";
@@ -304,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF776FB22C6978B000F23F3C /* CustomTimerMock.swift in Sources */,
-				AFDEC6B52C67E7CD009DB3D1 /* MicrowaveAppleAssessmentTests.swift in Sources */,
+				AFDEC6B52C67E7CD009DB3D1 /* MicrowaveViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,9 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITests.swift in Sources */,
-				AF776FB42C697C1D00F23F3C /* test.swift in Sources */,
-				AFDEC6C12C67E7CD009DB3D1 /* MicrowaveAppleAssessmentUITestsLaunchTests.swift in Sources */,
+				AFDEC6BF2C67E7CD009DB3D1 /* MicrowaveViewUITests.swift in Sources */,
 				AF776FAF2C69787100F23F3C /* MicrowaveViewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
